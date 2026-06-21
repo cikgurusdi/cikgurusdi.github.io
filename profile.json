@@ -1,0 +1,51 @@
+{
+  "name": "RUSDI BIN HAMZAH",
+  "nickname": "Cikgu Rusdi",
+  "position": "Penolong Kanan Pentadbiran",
+  "school": "SMK Langkawi P. Tuba",
+  "birthDate": "27 Julai 1971",
+  "birthPlace": "Kg Selat Bagan Nyior, Langkawi, Kedah",
+  "origin": "Kg Selat Bagan Nyior, 07000 Langkawi, Kedah",
+  "serviceStart": "1 Disember 1993",
+  "subjects": [
+    "Teknologi Maklumat",
+    "Matematik",
+    "Sejarah"
+  ],
+  "motto": "Usaha Tangga Kejayaan",
+  "hobbies": [
+    "Mendengar Radio",
+    "Memancing",
+    "Menonton"
+  ],
+  "education": [
+    {
+      "institution": "Universiti Pendidikan Sultan Idris",
+      "qualification": "Ijazah Sarjana Muda Pendidikan (Teknologi Maklumat) dengan Kepujian"
+    }
+  ],
+  "experience": [
+    {
+      "year": "1993–1999",
+      "school": "SK Sungai Pelong, Sungai Buloh, Selangor"
+    },
+    {
+      "year": "2000",
+      "school": "SK Permatang Gunong, Alor Setar, Kedah"
+    },
+    {
+      "year": "2003–Mei 2025",
+      "school": "SMK Langkawi P. Tuba, Langkawi, Kedah"
+    },
+    {
+      "year": "Jun–Dis 2025",
+      "school": "SMK Kelibang, Langkawi, Kedah"
+    },
+    {
+      "year": "2026–Kini",
+      "school": "SMK Langkawi P. Tuba",
+      "position": "Penolong Kanan Pentadbiran"
+    }
+  ],
+  "message": "Terima kasih kepada semua yang pernah menjadi sebahagian daripada perjalanan kerjaya saya. Semoga pengalaman yang dikongsi menjadi inspirasi dan manfaat kepada generasi akan datang."
+}
