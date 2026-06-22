@@ -1,92 +1,92 @@
 <!DOCTYPE html>
 <html lang="ms">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey To Retirement</title>
 
-<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Journey To Retirement</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="overlay"></div>
-
 <header>
 
-<img src="assets/logo.png" class="logo">
+    <img src="assets/logo.png" class="logo">
 
-<h3>SMK Langkawi P. Tuba</h3>
+    <h1>Journey To Retirement</h1>
+
+    <p>Sebuah perjalanan yang penuh makna</p>
 
 </header>
 
 <section class="hero">
 
-<img src="assets/rusdi.jpg" class="photo">
+    <img src="assets/rusdi.jpg" id="profileImage">
 
-<h1>Journey To Retirement</h1>
+    <h2 id="name"></h2>
 
-<h2>Rusdi Bin Hamzah</h2>
+    <p id="position"></p>
 
-<p>Guru • SMK Langkawi P. Tuba</p>
-
-<div id="countdown">
-
-<div class="box">
-
-<span id="days">0</span>
-
-<label>Hari</label>
-
-</div>
-
-<div class="box">
-
-<span id="hours">0</span>
-
-<label>Jam</label>
-
-</div>
-
-<div class="box">
-
-<span id="minutes">0</span>
-
-<label>Minit</label>
-
-</div>
-
-<div class="box">
-
-<span id="seconds">0</span>
-
-<label>Saat</label>
-
-</div>
-
-</div>
-
-<p class="date">
-
-🎓 Tarikh Persaraan
-
-<b>1 Februari 2027</b>
-
-</p>
+    <p id="school"></p>
 
 </section>
+
+<section class="countdown">
+
+<h2>Menuju Hari Persaraan</h2>
+
+<div class="timer">
+
+<div>
+<span id="days">0</span>
+<p><center>Hari</center></p>
+</div>
+
+<div>
+<span id="hours">0</span>
+<p><center>Jam</center></p>
+</div>
+
+<div>
+<span id="minutes">0</span>
+<p><center>Minit</center></p>
+</div>
+
+<div>
+<span id="seconds">0</span>
+<p><center>Saat</center></p>
+</div>
+
+</div>
+
+</section>
+
+<section class="quote">
+
+<h2>Kata-kata Inspirasi</h2>
+
+<p id="quote"></p>
+
+</section>
+
+<section class="timeline">
+
+<h2>Timeline Kerjaya</h2>
+
+<div id="timeline"></div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Journey To Retirement</p>
+
+</footer>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
