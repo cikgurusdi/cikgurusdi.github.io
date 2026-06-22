@@ -1,18 +1,64 @@
-const target = new Date("2027-02-01T00:00:00").getTime();
+let retirementDate;
 
-setInterval(function(){
+fetch("data/profile.json")
+.then(response => response.json())
+.then(data=>{
 
-const now = new Date().getTime();
+document.getElementById("name").innerHTML=data.name;
 
-const diff = target-now;
+document.getElementById("position").innerHTML=data.position;
 
-const days = Math.floor(diff/(1000*60*60*24));
+document.getElementById("school").innerHTML=data.school;
 
-const hours = Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+document.getElementById("quote").innerHTML=data.quote;
 
-const minutes = Math.floor((diff%(1000*60*60))/(1000*60));
+retirementDate=new Date(data.retirement);
 
-const seconds = Math.floor((diff%(1000*60))/1000);
+let html="";
+
+data.timeline.forEach(item=>{
+
+html+=`
+
+<div class="timeline-item">
+
+<h3>${item.year}</h3>
+
+<p>${item.title}</p>
+
+</div>
+
+`;
+
+});
+
+document.getElementById("timeline").innerHTML=html;
+
+countdown();
+
+setInterval(countdown,1000);
+
+});
+
+function countdown(){
+
+let now=new Date();
+
+let distance=retirementDate-now;
+
+if(distance<0){
+
+return;
+
+}
+
+let days=Math.floor(distance/(1000*60*60*24));
+
+let hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+
+let minutes=Math.floor((distance%(1000*60*60))/(1000*60));
+
+let seconds=Math.floor((distance%(1000*60))/1000);
 
 document.getElementById("days").innerHTML=days;
 
@@ -22,4 +68,4 @@ document.getElementById("minutes").innerHTML=minutes;
 
 document.getElementById("seconds").innerHTML=seconds;
 
-},1000);
+}
