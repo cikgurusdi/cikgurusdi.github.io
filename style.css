@@ -76,7 +76,7 @@ backdrop-filter:blur(10px);
 display:flex;
 
 justify-content:center;
-
+text-align:center;
 gap:30px;
 
 flex-wrap:wrap;
